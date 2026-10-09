@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Home from './components/Home';
+import DoctoresEspecialidad from './components/DoctoresEspecialidad';
+import Router from './components/Router';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    <div>
+      <Router />
+    </div>
   </React.StrictMode>
 );
 
