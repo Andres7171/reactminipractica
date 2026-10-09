@@ -30,12 +30,14 @@ export default class DoctoresEspecialidad extends Component {
 
   }
   
+  componentDidMount=()=>{
+    this.loadEspecialidades()
+  }
     render() {
     return (
 
       <div>
-        {
-        this.loadEspecialidades()}
+        
         <h1>Doctores Especialidad</h1>
         <form action="">
             <select ref={this.selectEspecialidades} name="" id="">
